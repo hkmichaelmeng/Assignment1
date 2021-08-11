@@ -1,5 +1,3 @@
 # Question 1
-def add(x,y):
-    return x+y
-
-    
+def add():
+    return 1
