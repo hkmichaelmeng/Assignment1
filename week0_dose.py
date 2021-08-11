@@ -17,7 +17,7 @@ def dose(needs):
     if sum(needs) > 500 or max(needs)> 250:
         return "No medicine given"
     else:
-        return [if x%10 == 0 (x/10, 0) else (int(x/10)+1, 10 - x%10) for x in needs]
+        return [(x/10, 0) if x%10 == 0 else (int(x/10)+1, 10 - x%10) for x in needs]
 
 
 
